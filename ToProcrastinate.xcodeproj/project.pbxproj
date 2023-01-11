@@ -16,6 +16,7 @@
 		3A2598B2296E74790074D806 /* ToProcrastinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2598B1296E74790074D806 /* ToProcrastinateTests.swift */; };
 		3A2598BC296E747A0074D806 /* ToProcrastinateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2598BB296E747A0074D806 /* ToProcrastinateUITests.swift */; };
 		3A2598BE296E747A0074D806 /* ToProcrastinateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2598BD296E747A0074D806 /* ToProcrastinateUITestsLaunchTests.swift */; };
+		3A2598CB296E74C10074D806 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2598CA296E74C10074D806 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3A2598B7296E747A0074D806 /* ToProcrastinateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToProcrastinateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2598BB296E747A0074D806 /* ToProcrastinateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToProcrastinateUITests.swift; sourceTree = "<group>"; };
 		3A2598BD296E747A0074D806 /* ToProcrastinateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToProcrastinateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A2598CA296E74C10074D806 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				3A25989A296E74770074D806 /* ToProcrastinateApp.swift */,
 				3A25989C296E74770074D806 /* ContentView.swift */,
+				3A2598CA296E74C10074D806 /* Model.swift */,
 				3A25989E296E74790074D806 /* Assets.xcassets */,
 				3A2598A3296E74790074D806 /* Persistence.swift */,
 				3A2598A8296E74790074D806 /* Info.plist */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2598CB296E74C10074D806 /* Model.swift in Sources */,
 				3A2598A4296E74790074D806 /* Persistence.swift in Sources */,
 				3A25989D296E74770074D806 /* ContentView.swift in Sources */,
 				3A2598A7296E74790074D806 /* ToProcrastinate.xcdatamodeld in Sources */,
